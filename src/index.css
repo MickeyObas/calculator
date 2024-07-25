@@ -14,7 +14,6 @@
 
 #calculatorBox{
   background-color: grey;
-  color: white;
   width: 400px;
   height: 500px;
 }
@@ -31,7 +30,6 @@
   row-gap: 10px;
   column-gap: 10px;
   padding: 10px;
-  font-weight: bold;
 }
 
 .box{
@@ -41,6 +39,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .row{
@@ -57,7 +60,7 @@
 }
 
 .second .box{
-  background-color: rgb(129, 252, 129);
+  background-color: rgb(96, 217, 96);
 }
 
 .number.box{
@@ -69,7 +72,7 @@
 }
 
 .equal.box{
-  background-color: rgb(196, 53, 53);
+  background-color: rgb(221, 57, 57);
 }
 
 .row-of-five .box{

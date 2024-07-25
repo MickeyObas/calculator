@@ -9,44 +9,44 @@ function App() {
           <div id='calculatorScreen'></div>
           <div id='calculatorGrid'>
             <div className='row row-of-four first'>
-              <div className='box'>&#8634;</div>
-              <div className='box'>&#8592;</div>
-              <div className='box'>C</div>
-              <div className='box'>AC</div>
+              <button className='box'>&#8634;</button>
+              <button className='box'>&#8592;</button>
+              <button className='box'>C</button>
+              <button className='box'>AC</button>
             </div>
             <div className='row row-of-four second'>
-              <div className='box'>mc</div>
-              <div className='box'>m+</div>
-              <div className='box'>m-</div>
-              <div className='box'>mr</div>
+              <button className='box'>mc</button>
+              <button className='box'>m+</button>
+              <button className='box'>m-</button>
+              <button className='box'>mr</button>
             </div>
             <div className='row row-of-five'>
-              <div className='box number'>7</div>
-              <div className='box number'>8</div>
-              <div className='box number'>9</div>
-              <div className='box operator'>/</div>
-              <div className='box operator'>R</div>
+              <button className='box number'>7</button>
+              <button className='box number'>8</button>
+              <button className='box number'>9</button>
+              <button className='box operator'>/</button>
+              <button className='box operator'>R</button>
             </div>
             <div className='row row-of-five'>
-              <div className='box number'>4</div>
-              <div className='box number'>5</div>
-              <div className='box number'>6</div>
-              <div className='box operator'>*</div>
-              <div className='box operator'>x^2</div>
+              <button className='box number'>4</button>
+              <button className='box number'>5</button>
+              <button className='box number'>6</button>
+              <button className='box operator'>*</button>
+              <button className='box operator'>x^2</button>
             </div>
             <div className='row row-of-five'>
-              <div className='box number'>1</div>
-              <div className='box number'>2</div>
-              <div className='box number'>3</div>
-              <div className='box operator'>-</div>
-              <div className='box operator'>1/x</div>
+              <button className='box number'>1</button>
+              <button className='box number'>2</button>
+              <button className='box number'>3</button>
+              <button className='box operator'>-</button>
+              <button className='box operator'>1/x</button>
             </div>
             <div className='row row-of-five'>
-              <div className='box number'>0</div>
-              <div className='box operator'>.</div>
-              <div className='box operator'>+-</div>
-              <div className='box operator'>+</div>
-              <div className='box equal'>=</div>
+              <button className='box number'>0</button>
+              <button className='box operator'>.</button>
+              <button className='box operator'>+-</button>
+              <button className='box operator'>+</button>
+              <button className='box equal'>=</button>
             </div>
           </div>
         </div>
